@@ -1,0 +1,17 @@
+[1.097s] Invoking command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build --no-deps symlink_data
+[1.334s] running develop
+[1.485s] running egg_info
+[1.486s] writing turtle_move_pkg_nea.egg-info/PKG-INFO
+[1.487s] writing dependency_links to turtle_move_pkg_nea.egg-info/dependency_links.txt
+[1.487s] writing entry points to turtle_move_pkg_nea.egg-info/entry_points.txt
+[1.487s] writing requirements to turtle_move_pkg_nea.egg-info/requires.txt
+[1.487s] writing top-level names to turtle_move_pkg_nea.egg-info/top_level.txt
+[1.489s] reading manifest file 'turtle_move_pkg_nea.egg-info/SOURCES.txt'
+[1.490s] writing manifest file 'turtle_move_pkg_nea.egg-info/SOURCES.txt'
+[1.492s] running build_ext
+[1.492s] Creating /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle-move-pkg-nea.egg-link (link to .)
+[1.493s] Installing turtle_move_node_nea script to /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/turtle_move_pkg_nea
+[1.493s] 
+[1.493s] Installed /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea
+[1.493s] running symlink_data
+[1.559s] Invoked command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build --no-deps symlink_data

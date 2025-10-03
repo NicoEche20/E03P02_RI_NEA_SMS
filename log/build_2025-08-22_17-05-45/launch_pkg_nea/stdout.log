@@ -1,0 +1,26 @@
+running develop
+Removing /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch-pkg-nea.egg-link (link to .)
+running egg_info
+writing ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/PKG-INFO
+writing dependency_links to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/dependency_links.txt
+writing entry points to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/entry_points.txt
+writing requirements to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/requires.txt
+writing top-level names to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/top_level.txt
+reading manifest file '../../build/launch_pkg_nea/launch_pkg_nea.egg-info/SOURCES.txt'
+writing manifest file '../../build/launch_pkg_nea/launch_pkg_nea.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea
+copying /home/user1/ros2_ws_2502/build/launch_pkg_nea/build/lib/launch_pkg_nea/__init__.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea
+byte-compiling /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea/__init__.py to __init__.cpython-310.pyc
+running install_data
+copying resource/launch_pkg_nea -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index/resource_index/packages
+copying package.xml -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea
+copying launch/talker_listener.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+copying launch/turtle_mimic.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+running install_egg_info
+Copying ../../build/launch_pkg_nea/launch_pkg_nea.egg-info to /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log'

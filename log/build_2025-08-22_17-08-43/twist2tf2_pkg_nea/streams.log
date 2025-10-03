@@ -1,0 +1,23 @@
+[2.557s] Invoking command in '/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/build --no-deps symlink_data
+[3.027s] running develop
+[3.343s] running egg_info
+[3.343s] creating twist2tf2_pkg_nea.egg-info
+[3.344s] writing twist2tf2_pkg_nea.egg-info/PKG-INFO
+[3.346s] writing dependency_links to twist2tf2_pkg_nea.egg-info/dependency_links.txt
+[3.346s] writing entry points to twist2tf2_pkg_nea.egg-info/entry_points.txt
+[3.346s] writing requirements to twist2tf2_pkg_nea.egg-info/requires.txt
+[3.346s] writing top-level names to twist2tf2_pkg_nea.egg-info/top_level.txt
+[3.346s] writing manifest file 'twist2tf2_pkg_nea.egg-info/SOURCES.txt'
+[3.348s] reading manifest file 'twist2tf2_pkg_nea.egg-info/SOURCES.txt'
+[3.349s] writing manifest file 'twist2tf2_pkg_nea.egg-info/SOURCES.txt'
+[3.351s] running build_ext
+[3.352s] Creating /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages/twist2tf2-pkg-nea.egg-link (link to .)
+[3.354s] 
+[3.354s] Installed /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea
+[3.354s] running symlink_data
+[3.355s] creating /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/share/ament_index
+[3.355s] creating /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/share/ament_index/resource_index
+[3.356s] creating /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/share/ament_index/resource_index/packages
+[3.357s] symbolically linking /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/resource/twist2tf2_pkg_nea -> /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/share/ament_index/resource_index/packages
+[3.358s] symbolically linking /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/package.xml -> /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/share/twist2tf2_pkg_nea
+[3.448s] Invoked command in '/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/build --no-deps symlink_data

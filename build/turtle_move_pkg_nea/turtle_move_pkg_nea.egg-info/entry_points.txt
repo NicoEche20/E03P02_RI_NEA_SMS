@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_move_node_nea = turtle_move_pkg_nea.turtle_move_node_nea:main
+

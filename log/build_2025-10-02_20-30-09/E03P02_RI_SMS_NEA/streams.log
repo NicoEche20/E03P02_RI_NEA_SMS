@@ -1,0 +1,57 @@
+[0.955s] Invoking command in '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build
+[1.228s] running develop
+[1.413s] Removing /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02-RI-SMS-NEA.egg-link (link to .)
+[1.445s] Invoked command in '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build
+[1.448s] Invoking command in '/home/user1/ros2_ws_2502/src/E03P02_RI_SMS_NEA': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/E03P02_RI_SMS_NEA build --build-base /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build install --record /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/install.log --single-version-externally-managed install_data --force
+[1.709s] running egg_info
+[1.710s] writing ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/PKG-INFO
+[1.710s] writing dependency_links to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/dependency_links.txt
+[1.710s] writing entry points to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/entry_points.txt
+[1.710s] writing requirements to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/requires.txt
+[1.711s] writing top-level names to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/top_level.txt
+[1.713s] reading manifest file '../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+[1.715s] writing manifest file '../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+[1.715s] running build
+[1.715s] running build_py
+[1.715s] running install
+[1.716s] running install_lib
+[1.717s] creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.718s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/joint_state_bridge.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.718s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/inverse_kinematics.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.718s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/__init__.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.719s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/cad_to_execution.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.719s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/forward_kinematics.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.720s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/test_movement.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.720s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/trajectory_planner.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.721s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/dxf_parser.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.721s] copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/path_publisher.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+[1.723s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/joint_state_bridge.py to joint_state_bridge.cpython-310.pyc
+[1.724s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/inverse_kinematics.py to inverse_kinematics.cpython-310.pyc
+[1.725s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/__init__.py to __init__.cpython-310.pyc
+[1.725s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/cad_to_execution.py to cad_to_execution.cpython-310.pyc
+[1.726s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/forward_kinematics.py to forward_kinematics.cpython-310.pyc
+[1.727s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/test_movement.py to test_movement.cpython-310.pyc
+[1.727s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/trajectory_planner.py to trajectory_planner.cpython-310.pyc
+[1.728s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/dxf_parser.py to dxf_parser.cpython-310.pyc
+[1.729s] byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/path_publisher.py to path_publisher.cpython-310.pyc
+[1.730s] running install_data
+[1.730s] copying resource/E03P02_RI_SMS_NEA -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index/packages
+[1.732s] copying package.xml -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA
+[1.732s] copying launch/robot_visualization.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+[1.733s] copying launch/complete_system.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+[1.734s] copying model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[1.735s] copying model/RRP.urdf.xacro:Zone.Identifier -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[1.736s] copying model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[1.737s] copying CAD/WAYPOINT.dxf -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/CAD
+[1.739s] running install_egg_info
+[1.741s] Copying ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA-0.0.0-py3.10.egg-info
+[1.744s] running install_scripts
+[1.765s] Installing dxf_parser script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.765s] Installing forward_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] Installing inverse_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] Installing joint_state_bridge script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] Installing path_publisher script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] Installing test_movement script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] Installing trajectory_planner script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[1.766s] writing list of installed files to '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/install.log'
+[1.796s] Invoked command in '/home/user1/ros2_ws_2502/src/E03P02_RI_SMS_NEA' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/E03P02_RI_SMS_NEA build --build-base /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build install --record /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/install.log --single-version-externally-managed install_data --force

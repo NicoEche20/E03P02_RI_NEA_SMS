@@ -1,0 +1,70 @@
+running egg_info
+creating ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info
+writing ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/PKG-INFO
+writing dependency_links to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/dependency_links.txt
+writing entry points to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/entry_points.txt
+writing requirements to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/requires.txt
+writing top-level names to ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/top_level.txt
+writing manifest file '../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+reading manifest file '../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+writing manifest file '../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build
+creating /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib
+creating /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/joint_state_bridge.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/inverse_kinematics.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/__init__.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/cad_to_execution.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/forward_kinematics.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/test_movement.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/trajectory_planner.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/dxf_parser.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+copying E03P02_RI_SMS_NEA/path_publisher.py -> /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA
+running install
+running install_lib
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/joint_state_bridge.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/inverse_kinematics.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/__init__.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/cad_to_execution.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/forward_kinematics.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/test_movement.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/trajectory_planner.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/dxf_parser.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+copying /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build/lib/E03P02_RI_SMS_NEA/path_publisher.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/joint_state_bridge.py to joint_state_bridge.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/inverse_kinematics.py to inverse_kinematics.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/__init__.py to __init__.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/cad_to_execution.py to cad_to_execution.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/forward_kinematics.py to forward_kinematics.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/test_movement.py to test_movement.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/trajectory_planner.py to trajectory_planner.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/dxf_parser.py to dxf_parser.cpython-310.pyc
+byte-compiling /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA/path_publisher.py to path_publisher.cpython-310.pyc
+running install_data
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index/packages
+copying resource/E03P02_RI_SMS_NEA -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index/packages
+copying package.xml -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+copying launch/robot_visualization.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+copying launch/complete_system.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+copying model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+copying model/RRP.urdf.xacro:Zone.Identifier -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/CAD
+copying CAD/WAYPOINT.dxf -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/CAD
+running install_egg_info
+Copying ../../build/E03P02_RI_SMS_NEA/E03P02_RI_SMS_NEA.egg-info to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02_RI_SMS_NEA-0.0.0-py3.10.egg-info
+running install_scripts
+Installing dxf_parser script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing forward_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing inverse_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing joint_state_bridge script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing path_publisher script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing test_movement script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing trajectory_planner script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+writing list of installed files to '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/install.log'

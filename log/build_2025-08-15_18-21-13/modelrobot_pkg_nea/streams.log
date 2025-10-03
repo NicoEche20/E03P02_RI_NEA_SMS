@@ -1,0 +1,16 @@
+[1.093s] Invoking command in '/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build --no-deps symlink_data
+[1.319s] running develop
+[1.473s] running egg_info
+[1.473s] writing modelrobot_pkg_nea.egg-info/PKG-INFO
+[1.473s] writing dependency_links to modelrobot_pkg_nea.egg-info/dependency_links.txt
+[1.474s] writing entry points to modelrobot_pkg_nea.egg-info/entry_points.txt
+[1.474s] writing requirements to modelrobot_pkg_nea.egg-info/requires.txt
+[1.474s] writing top-level names to modelrobot_pkg_nea.egg-info/top_level.txt
+[1.476s] reading manifest file 'modelrobot_pkg_nea.egg-info/SOURCES.txt'
+[1.477s] writing manifest file 'modelrobot_pkg_nea.egg-info/SOURCES.txt'
+[1.478s] running build_ext
+[1.478s] Creating /home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages/modelrobot-pkg-nea.egg-link (link to .)
+[1.479s] 
+[1.479s] Installed /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea
+[1.480s] running symlink_data
+[1.527s] Invoked command in '/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build --no-deps symlink_data

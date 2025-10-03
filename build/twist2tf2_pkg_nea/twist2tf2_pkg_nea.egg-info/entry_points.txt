@@ -1,0 +1,3 @@
+[console_scripts]
+twist2tf2_node_nea = twist2tf2_pkg_nea.twist2tf2_node_nea:main
+

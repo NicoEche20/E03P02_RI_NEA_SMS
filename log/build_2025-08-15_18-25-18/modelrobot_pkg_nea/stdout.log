@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing modelrobot_pkg_nea.egg-info/PKG-INFO
+writing dependency_links to modelrobot_pkg_nea.egg-info/dependency_links.txt
+writing entry points to modelrobot_pkg_nea.egg-info/entry_points.txt
+writing requirements to modelrobot_pkg_nea.egg-info/requires.txt
+writing top-level names to modelrobot_pkg_nea.egg-info/top_level.txt
+reading manifest file 'modelrobot_pkg_nea.egg-info/SOURCES.txt'
+writing manifest file 'modelrobot_pkg_nea.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages/modelrobot-pkg-nea.egg-link (link to .)
+
+Installed /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea
+running symlink_data

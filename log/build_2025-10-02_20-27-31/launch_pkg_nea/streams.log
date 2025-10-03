@@ -1,0 +1,20 @@
+[2.080s] Invoking command in '/home/user1/ros2_ws_2502/build/launch_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/launch_pkg_nea/build --no-deps symlink_data --force
+[2.410s] running develop
+[2.597s] running egg_info
+[2.597s] writing launch_pkg_nea.egg-info/PKG-INFO
+[2.598s] writing dependency_links to launch_pkg_nea.egg-info/dependency_links.txt
+[2.599s] writing entry points to launch_pkg_nea.egg-info/entry_points.txt
+[2.599s] writing requirements to launch_pkg_nea.egg-info/requires.txt
+[2.599s] writing top-level names to launch_pkg_nea.egg-info/top_level.txt
+[2.602s] reading manifest file 'launch_pkg_nea.egg-info/SOURCES.txt'
+[2.603s] writing manifest file 'launch_pkg_nea.egg-info/SOURCES.txt'
+[2.604s] running build_ext
+[2.605s] Creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch-pkg-nea.egg-link (link to .)
+[2.606s] 
+[2.606s] Installed /home/user1/ros2_ws_2502/build/launch_pkg_nea
+[2.606s] running symlink_data
+[2.607s] symbolically linking /home/user1/ros2_ws_2502/build/launch_pkg_nea/resource/launch_pkg_nea -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index/resource_index/packages
+[2.607s] symbolically linking /home/user1/ros2_ws_2502/build/launch_pkg_nea/package.xml -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea
+[2.607s] symbolically linking /home/user1/ros2_ws_2502/build/launch_pkg_nea/launch/talker_listener.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+[2.608s] symbolically linking /home/user1/ros2_ws_2502/build/launch_pkg_nea/launch/turtle_mimic.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+[2.705s] Invoked command in '/home/user1/ros2_ws_2502/build/launch_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/launch_pkg_nea/build --no-deps symlink_data --force

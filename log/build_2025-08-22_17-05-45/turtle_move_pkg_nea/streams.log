@@ -1,0 +1,31 @@
+[0.998s] Invoking command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build
+[1.214s] running develop
+[1.350s] Removing /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle-move-pkg-nea.egg-link (link to .)
+[1.399s] Invoked command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build
+[1.401s] Invoking command in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/install.log --single-version-externally-managed install_data --force
+[1.599s] running egg_info
+[1.600s] writing ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/PKG-INFO
+[1.600s] writing dependency_links to ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/dependency_links.txt
+[1.601s] writing entry points to ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/entry_points.txt
+[1.601s] writing requirements to ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/requires.txt
+[1.601s] writing top-level names to ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/top_level.txt
+[1.602s] reading manifest file '../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/SOURCES.txt'
+[1.604s] writing manifest file '../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info/SOURCES.txt'
+[1.604s] running build
+[1.604s] running build_py
+[1.604s] running install
+[1.604s] running install_lib
+[1.606s] creating /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea
+[1.606s] copying /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build/lib/turtle_move_pkg_nea/turtle_move_node_nea.py -> /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea
+[1.607s] copying /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build/lib/turtle_move_pkg_nea/__init__.py -> /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea
+[1.608s] byte-compiling /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea/turtle_move_node_nea.py to turtle_move_node_nea.cpython-310.pyc
+[1.609s] byte-compiling /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea/__init__.py to __init__.cpython-310.pyc
+[1.609s] running install_data
+[1.609s] copying resource/turtle_move_pkg_nea -> /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/ament_index/resource_index/packages
+[1.610s] copying package.xml -> /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea
+[1.612s] running install_egg_info
+[1.613s] Copying ../../build/turtle_move_pkg_nea/turtle_move_pkg_nea.egg-info to /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages/turtle_move_pkg_nea-0.0.0-py3.10.egg-info
+[1.614s] running install_scripts
+[1.636s] Installing turtle_move_node_nea script to /home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/turtle_move_pkg_nea
+[1.637s] writing list of installed files to '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/install.log'
+[1.670s] Invoked command in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/install.log --single-version-externally-managed install_data --force

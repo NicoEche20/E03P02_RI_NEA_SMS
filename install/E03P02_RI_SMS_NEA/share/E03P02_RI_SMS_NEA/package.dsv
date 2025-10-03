@@ -1,0 +1,6 @@
+source;share/E03P02_RI_SMS_NEA/hook/pythonpath.ps1
+source;share/E03P02_RI_SMS_NEA/hook/pythonpath.dsv
+source;share/E03P02_RI_SMS_NEA/hook/pythonpath.sh
+source;share/E03P02_RI_SMS_NEA/hook/ament_prefix_path.ps1
+source;share/E03P02_RI_SMS_NEA/hook/ament_prefix_path.dsv
+source;share/E03P02_RI_SMS_NEA/hook/ament_prefix_path.sh

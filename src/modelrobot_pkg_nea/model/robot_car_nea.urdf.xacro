@@ -1,0 +1,134 @@
+<?xml version='1.0'?>
+    <robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="robot_car">
+
+        <xacro:property name="blx" value="${10/10}" />  
+        <xacro:property name="bly" value="${8/10}" />  
+        <xacro:property name="blz" value="${5/10}" />   
+
+        <xacro:property name="olx" value="${2.5/10}" /> 
+        <xacro:property name="oly" value="${(4+1.25/2)/10}" />  
+        <xacro:property name="olz" value="${1.25/10}" /> 
+
+        <xacro:property name="crad" value="${5/2/10}" />  
+        <xacro:property name="clen" value="${1.25/10}" /> 
+        <xacro:property name="srad" value="${2.5/2/10}" />  
+        <xacro:property name="slx" value="${(10-2.5/2)/10}" />  
+
+
+
+        <xacro:macro name="wheel_macro" params="p_name p_radius p_length">
+            <link name="${p_name}">
+                <visual>
+                    <geometry>
+                        <cylinder radius="${p_radius}" length="${p_length}"/>
+                    </geometry>
+                    <origin xyz="0 0 0" rpy="-${pi/2} 0 0"/>
+                </visual>
+
+                <inertial>
+                    <mass value="1"/>
+                    <origin xyz="0 0 0" rpy="0 0 0"/>
+                    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+                </inertial>
+
+                <collision>
+                    <geometry>
+                        <cylinder radius="${p_radius}" length="${p_length}"/>
+                    </geometry>
+                    <origin xyz="0 0 0" rpy="-${pi/2} 0 0"/>
+                </collision>
+            </link>
+        </xacro:macro>
+
+        <link name="base_link">
+        </link>
+
+        <joint name="base_chassis_joint" type="fixed">
+            <parent link="base_link"/>
+            <child link="chassis_link"/>
+            <origin xyz="-${olx} 0 -${olz}" rpy="0 0 0"/> 
+        </joint>
+
+        <link name="chassis_link">
+            <visual>
+                <geometry>
+                    <box size="${blx} ${bly} ${blz}"/>
+                </geometry>
+                <origin xyz="${blx/2} 0 ${blz/2}" rpy="0 0 0"/>
+            </visual>
+
+            <inertial>
+                <mass value="1"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+            </inertial>
+
+            <collision>
+                <geometry>
+                    <box size="${blx} ${bly} ${blz}"/>
+                </geometry>
+                <origin xyz="${blx/2} 0 ${blz/2}" rpy="0 0 0"/>
+            </collision>
+        </link>
+
+        <joint name="chassis_rwheel_joint" type="continuous">
+            <parent link="chassis_link"/>
+            <child link="rwheel_link"/>
+            <origin xyz="${olx} ${oly} ${olz}" rpy="0 0 0"/> 
+            <axis xyz="0 1 0"/>
+            <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+            <dynamics damping="1" friction="1"/>  
+        </joint>
+
+        <xacro:wheel_macro  p_name="rwheel_link"
+                            p_radius="${crad}"
+                            p_length="${clen}"/>
+
+
+        <joint name="chassis_lwheel_joint" type="continuous">
+            <parent link="chassis_link"/>
+            <child link="lwheel_link"/>
+            <origin xyz="${olx} -${oly} ${olz}" rpy="0 0 0"/> 
+            <axis xyz="0 1 0"/>
+            <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+            <dynamics damping="1" friction="1"/>  
+        </joint>
+
+        <xacro:wheel_macro  p_name="lwheel_link"
+                            p_radius="${crad}"
+                            p_length="${clen}"/>
+       
+        <joint name="chassis_caster_joint" type="fixed">
+            <parent link="chassis_link"/>
+            <child link="caster_link"/>
+            <origin xyz="${slx} 0 0" rpy="0 0 0"/> 
+            <axis xyz="0 1 0"/>
+            <limit effort="1" lower="0" upper="${2*pi}" velocity="1"/>
+            <dynamics damping="1" friction="1"/>  
+        </joint>
+
+       
+       
+        <link name="caster_link">
+            <visual>
+                <geometry>
+                    <sphere radius="${srad}"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+            </visual>
+
+            <inertial>
+                <mass value="1"/>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+                <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+            </inertial>
+
+            <collision>
+                <geometry>
+                    <sphere radius="${srad}"/>
+                </geometry>
+                <origin xyz="0 0 0" rpy="0 0 0"/>
+            </collision>
+        </link>
+
+    </robot>

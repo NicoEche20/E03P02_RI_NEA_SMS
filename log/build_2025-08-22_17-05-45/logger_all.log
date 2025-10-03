@@ -1,0 +1,249 @@
+[0.167s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.167s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x71a75be477c0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x71a75bf90700>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x71a75bf90700>>, mixin_verb=('build',))
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.299s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.300s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/user1/ros2_ws_2502'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.300s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.309s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.310s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extensions ['ignore', 'ignore_ament_install']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extension 'ignore'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extension 'ignore_ament_install'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extensions ['colcon_pkg']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extension 'colcon_pkg'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extensions ['colcon_meta']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extension 'colcon_meta'
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extensions ['ros']
+[0.311s] Level 1:colcon.colcon_core.package_identification:_identify(src/launch_pkg_nea) by extension 'ros'
+[0.313s] DEBUG:colcon.colcon_core.package_identification:Package 'src/launch_pkg_nea' with type 'ros.ament_python' and name 'launch_pkg_nea'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extensions ['ignore', 'ignore_ament_install']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extension 'ignore'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extension 'ignore_ament_install'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extensions ['colcon_pkg']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extension 'colcon_pkg'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extensions ['colcon_meta']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extension 'colcon_meta'
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extensions ['ros']
+[0.313s] Level 1:colcon.colcon_core.package_identification:_identify(src/modelrobot_pkg_nea) by extension 'ros'
+[0.314s] DEBUG:colcon.colcon_core.package_identification:Package 'src/modelrobot_pkg_nea' with type 'ros.ament_python' and name 'modelrobot_pkg_nea'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'colcon_meta'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['ros']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'cmake'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extensions ['python_setup_py']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/temp) by extension 'python_setup_py'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extensions ['ignore', 'ignore_ament_install']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extension 'ignore'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extension 'ignore_ament_install'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extensions ['colcon_pkg']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extension 'colcon_pkg'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extensions ['colcon_meta']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extension 'colcon_meta'
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extensions ['ros']
+[0.315s] Level 1:colcon.colcon_core.package_identification:_identify(src/turtle_move_pkg_nea) by extension 'ros'
+[0.315s] DEBUG:colcon.colcon_core.package_identification:Package 'src/turtle_move_pkg_nea' with type 'ros.ament_python' and name 'turtle_move_pkg_nea'
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.315s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.339s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.340s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 3 installed packages in /home/user1/ros2_ws_2502/install
+[0.342s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 389 installed packages in /opt/ros/humble
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'launch_pkg_nea' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'launch_pkg_nea' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user1/ros2_ws_2502/build/launch_pkg_nea', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user1/ros2_ws_2502/install/launch_pkg_nea', 'merge_install': False, 'path': '/home/user1/ros2_ws_2502/src/launch_pkg_nea', 'symlink_install': False, 'test_result_base': None}
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_target' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_clean_cache' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'cmake_force_configure' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'ament_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'catkin_cmake_args' from command line to 'None'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'modelrobot_pkg_nea' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.379s] DEBUG:colcon.colcon_core.verb:Building package 'modelrobot_pkg_nea' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea', 'merge_install': False, 'path': '/home/user1/ros2_ws_2502/src/modelrobot_pkg_nea', 'symlink_install': False, 'test_result_base': None}
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_target' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_clean_cache' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_clean_first' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'catkin_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'turtle_move_pkg_nea' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.380s] DEBUG:colcon.colcon_core.verb:Building package 'turtle_move_pkg_nea' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea', 'merge_install': False, 'path': '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea', 'symlink_install': False, 'test_result_base': None}
+[0.380s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.381s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.381s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user1/ros2_ws_2502/src/launch_pkg_nea' with build type 'ament_python'
+[0.382s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg_nea', 'ament_prefix_path')
+[0.384s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.384s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/ament_prefix_path.ps1'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/ament_prefix_path.dsv'
+[0.387s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/ament_prefix_path.sh'
+[0.388s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.388s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.392s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user1/ros2_ws_2502/src/modelrobot_pkg_nea' with build type 'ament_python'
+[0.392s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot_pkg_nea', 'ament_prefix_path')
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/ament_prefix_path.ps1'
+[0.393s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/ament_prefix_path.dsv'
+[0.394s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/ament_prefix_path.sh'
+[0.394s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.394s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.398s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea' with build type 'ament_python'
+[0.398s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_nea', 'ament_prefix_path')
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/ament_prefix_path.ps1'
+[0.399s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/ament_prefix_path.dsv'
+[0.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/ament_prefix_path.sh'
+[0.400s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.400s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.627s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user1/ros2_ws_2502/src/launch_pkg_nea'
+[0.627s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.627s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.840s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user1/ros2_ws_2502/src/modelrobot_pkg_nea'
+[0.840s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.840s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.053s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea'
+[1.054s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.054s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build
+[1.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build
+[1.400s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/build/launch_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/launch_pkg_nea/build
+[1.794s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/build/launch_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/launch_pkg_nea/build
+[1.796s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/src/launch_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/launch_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log --single-version-externally-managed install_data --force
+[1.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build
+[1.799s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/install.log --single-version-externally-managed install_data --force
+[1.800s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build
+[1.802s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/user1/ros2_ws_2502/src/modelrobot_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modelrobot_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/install.log --single-version-externally-managed install_data --force
+[2.068s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/src/turtle_move_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtle_move_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/turtle_move_pkg_nea/install.log --single-version-externally-managed install_data --force
+[2.071s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea' for CMake module files
+[2.072s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea' for CMake config files
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/bin'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/pkgconfig/turtle_move_pkg_nea.pc'
+[2.075s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/lib/python3.10/site-packages'
+[2.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('turtle_move_pkg_nea', 'pythonpath')
+[2.076s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/pythonpath.ps1'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/pythonpath.dsv'
+[2.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/hook/pythonpath.sh'
+[2.078s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/bin'
+[2.078s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(turtle_move_pkg_nea)
+[2.078s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/package.ps1'
+[2.080s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/package.dsv'
+[2.081s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/package.sh'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/package.bash'
+[2.082s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/turtle_move_pkg_nea/package.zsh'
+[2.083s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user1/ros2_ws_2502/install/turtle_move_pkg_nea/share/colcon-core/packages/turtle_move_pkg_nea)
+[2.086s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea' for CMake module files
+[2.087s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/src/launch_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/launch_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log --single-version-externally-managed install_data --force
+[2.087s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea' for CMake config files
+[2.089s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea/bin'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/pkgconfig/launch_pkg_nea.pc'
+[2.090s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages'
+[2.090s] Level 1:colcon.colcon_core.shell:create_environment_hook('launch_pkg_nea', 'pythonpath')
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/pythonpath.ps1'
+[2.091s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/pythonpath.dsv'
+[2.092s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/hook/pythonpath.sh'
+[2.092s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/launch_pkg_nea/bin'
+[2.092s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(launch_pkg_nea)
+[2.092s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/package.ps1'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/package.dsv'
+[2.093s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/package.sh'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/package.bash'
+[2.094s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/package.zsh'
+[2.095s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user1/ros2_ws_2502/install/launch_pkg_nea/share/colcon-core/packages/launch_pkg_nea)
+[2.097s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea' for CMake module files
+[2.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/user1/ros2_ws_2502/src/modelrobot_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/modelrobot_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/modelrobot_pkg_nea/install.log --single-version-externally-managed install_data --force
+[2.099s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea' for CMake config files
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/bin'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/pkgconfig/modelrobot_pkg_nea.pc'
+[2.103s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/lib/python3.10/site-packages'
+[2.103s] Level 1:colcon.colcon_core.shell:create_environment_hook('modelrobot_pkg_nea', 'pythonpath')
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/pythonpath.ps1'
+[2.104s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/pythonpath.dsv'
+[2.105s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/hook/pythonpath.sh'
+[2.106s] Level 1:colcon.colcon_core.environment:checking '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/bin'
+[2.106s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(modelrobot_pkg_nea)
+[2.106s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/package.ps1'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/package.dsv'
+[2.107s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/package.sh'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/package.bash'
+[2.108s] INFO:colcon.colcon_core.shell:Creating package script '/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/modelrobot_pkg_nea/package.zsh'
+[2.109s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/user1/ros2_ws_2502/install/modelrobot_pkg_nea/share/colcon-core/packages/modelrobot_pkg_nea)
+[2.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[2.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[2.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[2.111s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[2.163s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[2.163s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[2.164s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.ServiceUnknown: The name org.freedesktop.Notifications was not provided by any .service files
+[2.165s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.165s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user1/ros2_ws_2502/install/local_setup.ps1'
+[2.166s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user1/ros2_ws_2502/install/_local_setup_util_ps1.py'
+[2.167s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user1/ros2_ws_2502/install/setup.ps1'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user1/ros2_ws_2502/install/local_setup.sh'
+[2.168s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/user1/ros2_ws_2502/install/_local_setup_util_sh.py'
+[2.169s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user1/ros2_ws_2502/install/setup.sh'
+[2.170s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user1/ros2_ws_2502/install/local_setup.bash'
+[2.170s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user1/ros2_ws_2502/install/setup.bash'
+[2.171s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/user1/ros2_ws_2502/install/local_setup.zsh'
+[2.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/user1/ros2_ws_2502/install/setup.zsh'

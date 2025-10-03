@@ -1,0 +1,176 @@
+<?xml version="1.0"?>
+<robot xmlns:xacro="http://www.ros.org/wiki/xacro" name="rrp_robot">
+
+  <!-- Define colors -->
+  <material name="blue">
+    <color rgba="0 0 0.8 1"/>
+  </material>
+  <material name="red">
+    <color rgba="0.8 0 0 1"/>
+  </material>
+  <material name="green">
+    <color rgba="0 0.8 0 1"/>
+  </material>
+  <material name="yellow">
+    <color rgba="0.8 0.8 0 1"/>
+  </material>
+  <material name="black">
+    <color rgba="0 0 0 1"/>
+  </material>
+
+  <!-- Define properties -->
+  <xacro:property name="base_radius" value="0.1" />
+  <xacro:property name="base_height" value="0.2" />
+  <xacro:property name="arm1_length" value="0.5" />
+  <xacro:property name="arm1_width" value="0.05" />
+  <xacro:property name="arm1_height" value="0.05" />
+  <xacro:property name="arm2_length" value="0.4" />
+  <xacro:property name="arm2_width" value="0.04" />
+  <xacro:property name="arm2_height" value="0.04" />
+  <xacro:property name="prismatic_length" value="0.3" />
+  <xacro:property name="prismatic_width" value="0.03" />
+  <xacro:property name="prismatic_height" value="0.03" />
+
+  <!-- World Frame -->
+  <link name="world"/>
+
+  <!-- Fixed Base to World -->
+  <joint name="world_to_base" type="fixed">
+    <parent link="world"/>
+    <child link="base_link"/>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+  
+  <!-- Base Link (Cylinder) -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${base_radius}" length="${base_height}"/>
+      </geometry>
+      <material name="blue"/>
+    </visual>
+    <collision>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <geometry>
+        <cylinder radius="${base_radius}" length="${base_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0 0 ${base_height/2}" rpy="0 0 0"/>
+      <mass value="2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- First Revolute Joint with Limits -->
+  <joint name="joint1" type="revolute">
+    <parent link="base_link"/>
+    <child link="arm1_link"/>
+    <origin xyz="0 0 ${base_height}" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-1.57}" upper="${1.57}" effort="10" velocity="1.0"/>
+  </joint>
+
+  <!-- First Arm Link (Box) -->
+  <link name="arm1_link">
+    <visual>
+      <origin xyz="${arm1_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm1_length} ${arm1_width} ${arm1_height}"/>
+      </geometry>
+      <material name="red"/>
+    </visual>
+    <collision>
+      <origin xyz="${arm1_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm1_length} ${arm1_width} ${arm1_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="${arm1_length/2} 0 0" rpy="0 0 0"/>
+      <mass value="0.5"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- Second Revolute Joint with Limits -->
+  <joint name="joint2" type="revolute">
+    <parent link="arm1_link"/>
+    <child link="arm2_link"/>
+    <origin xyz="${arm1_length} 0 0" rpy="0 0 0"/>
+    <axis xyz="0 0 1"/>
+    <limit lower="${-1.57}" upper="${1.57}" effort="10" velocity="1.0"/>
+  </joint>
+
+  <!-- Second Arm Link (Box) -->
+  <link name="arm2_link">
+    <visual>
+      <origin xyz="${arm2_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm2_length} ${arm2_width} ${arm2_height}"/>
+      </geometry>
+      <material name="green"/>
+    </visual>
+    <collision>
+      <origin xyz="${arm2_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${arm2_length} ${arm2_width} ${arm2_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="${arm2_length/2} 0 0" rpy="0 0 0"/>
+      <mass value="0.3"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- Prismatic Joint with Limits -->
+  <joint name="joint3" type="prismatic">
+    <parent link="arm2_link"/>
+    <child link="prismatic_link"/>
+    <origin xyz="${arm2_length} 0 0" rpy="0 0 0"/>
+    <axis xyz="1 0 0"/>
+    <limit lower="0" upper="${prismatic_length}" effort="10" velocity="0.5"/>
+  </joint>
+
+  <!-- Prismatic Link (Box) -->
+  <link name="prismatic_link">
+    <visual>
+      <origin xyz="${prismatic_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${prismatic_length} ${prismatic_width} ${prismatic_height}"/>
+      </geometry>
+      <material name="yellow"/>
+    </visual>
+    <collision>
+      <origin xyz="${prismatic_length/2} 0 0" rpy="0 0 0"/>
+      <geometry>
+        <box size="${prismatic_length} ${prismatic_width} ${prismatic_height}"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="${prismatic_length/2} 0 0" rpy="0 0 0"/>
+      <mass value="0.2"/>
+      <inertia ixx="0.01" ixy="0" ixz="0" iyy="0.01" iyz="0" izz="0.01"/>
+    </inertial>
+  </link>
+
+  <!-- End Effector (Small tip) -->
+  <link name="end_effector">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <sphere radius="0.01"/>
+      </geometry>
+      <material name="black"/>
+    </visual>
+  </link>
+
+  <joint name="end_effector_joint" type="fixed">
+    <parent link="prismatic_link"/>
+    <child link="end_effector"/>
+    <origin xyz="${prismatic_length} 0 0" rpy="0 0 0"/>
+  </joint>
+
+</robot>

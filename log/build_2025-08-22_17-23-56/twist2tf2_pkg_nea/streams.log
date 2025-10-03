@@ -1,0 +1,17 @@
+[2.579s] Invoking command in '/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/build --no-deps symlink_data
+[3.092s] running develop
+[3.378s] running egg_info
+[3.378s] writing twist2tf2_pkg_nea.egg-info/PKG-INFO
+[3.378s] writing dependency_links to twist2tf2_pkg_nea.egg-info/dependency_links.txt
+[3.379s] writing entry points to twist2tf2_pkg_nea.egg-info/entry_points.txt
+[3.379s] writing requirements to twist2tf2_pkg_nea.egg-info/requires.txt
+[3.380s] writing top-level names to twist2tf2_pkg_nea.egg-info/top_level.txt
+[3.383s] reading manifest file 'twist2tf2_pkg_nea.egg-info/SOURCES.txt'
+[3.384s] writing manifest file 'twist2tf2_pkg_nea.egg-info/SOURCES.txt'
+[3.387s] running build_ext
+[3.387s] Creating /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages/twist2tf2-pkg-nea.egg-link (link to .)
+[3.389s] Installing twist2tf2_node_nea script to /home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/twist2tf2_pkg_nea
+[3.389s] 
+[3.389s] Installed /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea
+[3.389s] running symlink_data
+[3.474s] Invoked command in '/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/twist2tf2_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/twist2tf2_pkg_nea/build --no-deps symlink_data

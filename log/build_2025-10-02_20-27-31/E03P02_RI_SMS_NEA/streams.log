@@ -1,0 +1,31 @@
+[2.083s] Invoking command in '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build --no-deps symlink_data --force
+[2.420s] running develop
+[2.603s] running egg_info
+[2.603s] writing E03P02_RI_SMS_NEA.egg-info/PKG-INFO
+[2.604s] writing dependency_links to E03P02_RI_SMS_NEA.egg-info/dependency_links.txt
+[2.604s] writing entry points to E03P02_RI_SMS_NEA.egg-info/entry_points.txt
+[2.605s] writing requirements to E03P02_RI_SMS_NEA.egg-info/requires.txt
+[2.605s] writing top-level names to E03P02_RI_SMS_NEA.egg-info/top_level.txt
+[2.606s] reading manifest file 'E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+[2.608s] writing manifest file 'E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+[2.610s] running build_ext
+[2.611s] Creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02-RI-SMS-NEA.egg-link (link to .)
+[2.612s] Installing dxf_parser script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.613s] Installing forward_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.613s] Installing inverse_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.613s] Installing joint_state_bridge script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.613s] Installing path_publisher script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.614s] Installing test_movement script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.614s] Installing trajectory_planner script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+[2.615s] 
+[2.615s] Installed /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA
+[2.615s] running symlink_data
+[2.615s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/resource/E03P02_RI_SMS_NEA -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index/packages
+[2.616s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/package.xml -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA
+[2.617s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/launch/robot_visualization.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+[2.617s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/launch/complete_system.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+[2.618s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[2.619s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro:Zone.Identifier -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[2.620s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+[2.621s] symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/CAD/WAYPOINT.dxf -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/CAD
+[2.726s] Invoked command in '/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/build --no-deps symlink_data --force

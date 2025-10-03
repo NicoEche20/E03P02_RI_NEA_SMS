@@ -1,0 +1,29 @@
+running develop
+running egg_info
+writing E03P02_RI_SMS_NEA.egg-info/PKG-INFO
+writing dependency_links to E03P02_RI_SMS_NEA.egg-info/dependency_links.txt
+writing entry points to E03P02_RI_SMS_NEA.egg-info/entry_points.txt
+writing requirements to E03P02_RI_SMS_NEA.egg-info/requires.txt
+writing top-level names to E03P02_RI_SMS_NEA.egg-info/top_level.txt
+reading manifest file 'E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+writing manifest file 'E03P02_RI_SMS_NEA.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/python3.10/site-packages/E03P02-RI-SMS-NEA.egg-link (link to .)
+Installing dxf_parser script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing forward_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing inverse_kinematics script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing joint_state_bridge script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing path_publisher script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing test_movement script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+Installing trajectory_planner script to /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/lib/E03P02_RI_SMS_NEA
+
+Installed /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA
+running symlink_data
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/resource/E03P02_RI_SMS_NEA -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/ament_index/resource_index/packages
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/package.xml -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/launch/robot_visualization.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/launch/complete_system.launch.py -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/launch
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro:Zone.Identifier -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/model/RRP.urdf.xacro -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/model
+symbolically linking /home/user1/ros2_ws_2502/build/E03P02_RI_SMS_NEA/CAD/WAYPOINT.dxf -> /home/user1/ros2_ws_2502/install/E03P02_RI_SMS_NEA/share/E03P02_RI_SMS_NEA/CAD

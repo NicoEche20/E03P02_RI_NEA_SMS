@@ -1,0 +1,36 @@
+[1.044s] Invoking command in '/home/user1/ros2_ws_2502/src/launch_pkg_nea': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/launch_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log --single-version-externally-managed install_data
+[1.240s] running egg_info
+[1.241s] creating ../../build/launch_pkg_nea/launch_pkg_nea.egg-info
+[1.242s] writing ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/PKG-INFO
+[1.242s] writing dependency_links to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/dependency_links.txt
+[1.243s] writing entry points to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/entry_points.txt
+[1.243s] writing requirements to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/requires.txt
+[1.243s] writing top-level names to ../../build/launch_pkg_nea/launch_pkg_nea.egg-info/top_level.txt
+[1.244s] writing manifest file '../../build/launch_pkg_nea/launch_pkg_nea.egg-info/SOURCES.txt'
+[1.244s] reading manifest file '../../build/launch_pkg_nea/launch_pkg_nea.egg-info/SOURCES.txt'
+[1.245s] writing manifest file '../../build/launch_pkg_nea/launch_pkg_nea.egg-info/SOURCES.txt'
+[1.245s] running build
+[1.245s] running build_py
+[1.246s] creating /home/user1/ros2_ws_2502/build/launch_pkg_nea/build
+[1.246s] creating /home/user1/ros2_ws_2502/build/launch_pkg_nea/build/lib
+[1.246s] creating /home/user1/ros2_ws_2502/build/launch_pkg_nea/build/lib/launch_pkg_nea
+[1.247s] copying launch_pkg_nea/__init__.py -> /home/user1/ros2_ws_2502/build/launch_pkg_nea/build/lib/launch_pkg_nea
+[1.247s] running install
+[1.247s] running install_lib
+[1.248s] creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea
+[1.249s] copying /home/user1/ros2_ws_2502/build/launch_pkg_nea/build/lib/launch_pkg_nea/__init__.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea
+[1.249s] byte-compiling /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea/__init__.py to __init__.cpython-310.pyc
+[1.250s] running install_data
+[1.250s] creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index
+[1.250s] creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index/resource_index
+[1.250s] creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index/resource_index/packages
+[1.251s] copying resource/launch_pkg_nea -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/ament_index/resource_index/packages
+[1.251s] copying package.xml -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea
+[1.251s] creating /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+[1.252s] copying launch/talker_listener.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+[1.252s] copying launch/turtle_mimic.launch.py -> /home/user1/ros2_ws_2502/install/launch_pkg_nea/share/launch_pkg_nea/launch
+[1.253s] running install_egg_info
+[1.254s] Copying ../../build/launch_pkg_nea/launch_pkg_nea.egg-info to /home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages/launch_pkg_nea-0.0.0-py3.10.egg-info
+[1.255s] running install_scripts
+[1.271s] writing list of installed files to '/home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log'
+[1.319s] Invoked command in '/home/user1/ros2_ws_2502/src/launch_pkg_nea' returned '0': PYTHONPATH=/home/user1/ros2_ws_2502/build/launch_pkg_nea/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user1/ros2_ws_2502/install/launch_pkg_nea/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/launch_pkg_nea build --build-base /home/user1/ros2_ws_2502/build/launch_pkg_nea/build install --record /home/user1/ros2_ws_2502/build/launch_pkg_nea/install.log --single-version-externally-managed install_data

@@ -1,0 +1,9 @@
+[console_scripts]
+dxf_parser = E03P02_RI_SMS_NEA.dxf_parser:main
+forward_kinematics = E03P02_RI_SMS_NEA.forward_kinematics:main
+inverse_kinematics = E03P02_RI_SMS_NEA.inverse_kinematics:main
+joint_state_bridge = E03P02_RI_SMS_NEA.joint_state_bridge:main
+path_publisher = E03P02_RI_SMS_NEA.path_publisher:main
+test_movement = E03P02_RI_SMS_NEA.test_movement:main
+trajectory_planner = E03P02_RI_SMS_NEA.trajectory_planner:main
+
